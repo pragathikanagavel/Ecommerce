@@ -6,8 +6,8 @@
 }
 
 body {
-    background: #f7fff5;
-    color: #333;
+    background: #121212;
+    color: #e0e0e0;
 }
 
 /* Navbar */
@@ -17,8 +17,9 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 18px 8%;
-    background: #2e7d32;
-    color: white;
+    background: #1f1f1f;
+    color: #e0e0e0;
+    border-bottom: 1px solid #333;
 }
 
 .logo {
@@ -38,12 +39,12 @@ nav a {
 }
 
 nav a:hover {
-    color: #dcedc8;
+    color: #4caf50;
 }
 
 #cartCount {
-    background: white;
-    color: #2e7d32;
+    background: #333;
+    color: #81c784;
     padding: 3px 7px;
     border-radius: 50%;
 }
@@ -55,12 +56,12 @@ nav a:hover {
     display: flex;
     align-items: center;
     padding: 50px 8%;
-    background: #e8f5e9;
+    background: #1e1e1e;
 }
 
 .hero h1 {
     font-size: 48px;
-    color: #1b5e20;
+    color: #81c784;
     margin-bottom: 15px;
 }
 
@@ -72,7 +73,7 @@ nav a:hover {
 .shop-btn {
     display: inline-block;
     padding: 12px 25px;
-    background: #2e7d32;
+    background: #388e3c;
     color: white;
     text-decoration: none;
     border-radius: 6px;
@@ -87,7 +88,7 @@ nav a:hover {
 .products-section h2 {
     text-align: center;
     margin-bottom: 25px;
-    color: #1b5e20;
+    color: #81c784;
 }
 
 #searchInput {
@@ -96,7 +97,9 @@ nav a:hover {
     max-width: 500px;
     margin: 0 auto 30px;
     padding: 13px;
-    border: 1px solid #ccc;
+    border: 1px solid #444;
+    background: #2c2c2c;
+    color: #e0e0e0;
     border-radius: 6px;
 }
 
@@ -109,11 +112,11 @@ nav a:hover {
 /* Product Card */
 
 .product-card {
-    background: white;
+    background: #1e1e1e;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
     transition: 0.3s;
 }
 
@@ -132,7 +135,7 @@ nav a:hover {
 }
 
 .price {
-    color: #2e7d32;
+    color: #81c784;
     font-weight: bold;
     font-size: 18px;
 }
@@ -143,7 +146,7 @@ nav a:hover {
     margin-top: 12px;
     padding: 10px 18px;
     border: none;
-    background: #2e7d32;
+    background: #388e3c;
     color: white;
     border-radius: 5px;
     cursor: pointer;
@@ -152,7 +155,7 @@ nav a:hover {
 .product-card button:hover,
 .product-details button:hover,
 .cart-total button:hover {
-    background: #1b5e20;
+    background: #4caf50;
 }
 
 /* Product Details */
@@ -170,10 +173,10 @@ nav a:hover {
     width: 100%;
     display: flex;
     gap: 50px;
-    background: white;
+    background: #1e1e1e;
     padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 3px 15px rgba(0,0,0,0.5);
 }
 
 .details-box img {
@@ -188,7 +191,7 @@ nav a:hover {
 
 .details-info h1 {
     font-size: 35px;
-    color: #1b5e20;
+    color: #81c784;
     margin-bottom: 15px;
 }
 
@@ -213,11 +216,11 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: white;
+    background: #1e1e1e;
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
 }
 
 .cart-item img {
@@ -229,13 +232,13 @@ nav a:hover {
 .quantity button {
     padding: 5px 10px;
     border: none;
-    background: #2e7d32;
+    background: #388e3c;
     color: white;
     cursor: pointer;
 }
 
 .remove-btn {
-    background: #d32f2f !important;
+    background: #f44336 !important;
 }
 
 .cart-total {
@@ -247,8 +250,8 @@ nav a:hover {
 
 footer {
     text-align: center;
-    background: #1b5e20;
-    color: white;
+    background: #111;
+    color: #aaa;
     padding: 20px;
     margin-top: 30px;
 }
