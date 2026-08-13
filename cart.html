@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - FreshMart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">FreshMart</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html#products">Products</a>
+        <a href="cart.html">Cart <span id="cartCount">0</span></a>
+    </nav>
+</header>
+
+<section class="cart-section">
+
+    <h1>Shopping Cart</h1>
+
+    <div id="cartContainer"></div>
+
+    <div class="cart-total">
+        <h2>Total: ₹<span id="cartTotal">0</span></h2>
+        <button onclick="checkout()">Checkout</button>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 FreshMart. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
